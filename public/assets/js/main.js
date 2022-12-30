@@ -259,3 +259,8 @@
   new PureCounter();
 
 })()
+
+$(document).ready(function () {
+  alert($('#hero').attr('bg-attr'));
+  $('#hero').css('backgroun: url("'+$('#hero').attr('bg-attr')+'")');
+});
